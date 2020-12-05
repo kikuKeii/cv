@@ -191,3 +191,12 @@
   });
 
 })(jQuery);
+
+// ioL
+function ioL() {
+    if (confirm ('Download file CV pdf ?')) {
+        location.href = './assets/doc/CV_MiftakhuddinFalaki2019.pdf';
+    }
+
+    return false;
+}
