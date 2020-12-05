@@ -128,7 +128,7 @@
       type: "POST",
       url: action,
       data: data,
-      timeout: 40000
+      timeout: 4000
     }).done( function(msg){
       if (msg.trim() == 'OK') {
         this_form.find('.loading').slideUp();
